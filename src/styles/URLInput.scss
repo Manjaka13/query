@@ -1,0 +1,10 @@
+.url-input {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+	&__input {
+		flex: 1;
+		background: rgb(220, 220, 220);
+	}
+	.disabled {
+		color: rgb(150, 150, 150);
+	}
+}

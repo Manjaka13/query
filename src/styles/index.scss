@@ -1,0 +1,30 @@
+/*
+	Styles main entry
+*/
+
+@import "./vars.scss";
+@import "fastui.css";
+@import "./mixins.scss";
+@import "./Loading.scss";
+@import "./Home.scss";
+@import "./Dropdown.scss";
+@import "./URLInput.scss";
+
+body > #root {
+	background: rgb(25, 25, 25);
+}
+
+.theme2 {
+	color: $color-theme2;
+}
+
+.bg-theme2 {
+	background: $color-theme2;
+}
+
+select,
+option,
+input,
+button {
+	border: none;
+}

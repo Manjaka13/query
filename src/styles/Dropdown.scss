@@ -1,0 +1,30 @@
+.dropdown {
+	position: relative;
+
+	.current {
+		&:hover {
+			background: white;
+		}
+	}
+
+	&__caret {
+		position: absolute;
+		top: 13px;
+		right: 10px;
+	}
+
+	&__list {
+		position: absolute;
+		top: 100%;
+		box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+		border-top: 1px rgb(220, 220, 220) solid;
+		.item {
+			&:hover {
+				background: white;
+			}
+			&:active {
+				background: darken(whitesmoke, 5%);
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+.home {
+	&__window {
+		width: 1000px;
+		height: 500px;
+		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+		background: $color-theme;
+		@include screen-x(1200px) {
+			width: 80%;
+			height: 60%;
+		}
+	}
+}
